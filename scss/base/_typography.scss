@@ -11,3 +11,36 @@ p {
     font-family: $sans;
     font-weight: $regular;
 }
+
+.heading1 {
+    font-size: 90px;
+    font-family: "Apercu";
+    color: rgb(31, 32, 71);
+    font-weight: bold;
+    line-height: 1.111;
+    text-align: left;
+}
+
+.logo {
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(31, 32, 71);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+    position: absolute;
+    left: 152.203px;
+    top: 108.861px;
+    z-index: 187;
+}
+
+// global classes
+.muted-heading {
+    @include font-size(40px);
+    text-transform: capitalize;
+
+    @include mediaMax(769px) {
+        margin-bottom: 1em;
+    }
+}

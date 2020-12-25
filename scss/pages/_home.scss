@@ -1,0 +1,62 @@
+header {
+    margin: 10em 0;
+
+    .header-container {
+        position: absolute;
+        top: -5px;
+        right: 0;
+        z-index: 0;
+
+        img {
+            max-width: 70vw;
+        }
+    }
+}
+
+#features {
+    margin-top: 25%;
+
+}
+
+#step-for-mine {
+    margin-top: 15%;
+
+    .bg-squares {
+        max-width: 116.7vw;
+        position: absolute;
+        left: -18%;
+        z-index: 0;
+        top: -6em;
+    }
+
+    .steps {
+        img {
+            width: 10vmax;
+        }
+
+        p {
+            display: inline-block;
+            width: 20vmax;
+        }
+    }
+
+    .kyc-text {
+        position: relative;
+        top: 33vmax;
+        z-index: 100;
+    }
+}
+
+#platform {
+    margin-top: 40%;
+
+}
+
+#road-map {
+    margin-top: 10%;
+    background-image: url('/dist/images/bg2.png');
+    height: 60vh;
+    background-size: 170vmax;
+    background-position: -50em 0;
+    background-repeat: no-repeat;
+}

@@ -1,19 +1,22 @@
 //colors
 $whiteColor:#fff;
 $transWhiteColor:rgba(250, 250, 250, .4);
-$blackColor:#191919;
-$grayColor:#666;
-$greenColor:green;
+$navColor:#9198b7;
+$dropDown:#d5d8e8;
+$gradiantColor:linear-gradient(90deg, rgb(45, 3, 151) 0%, rgb(249, 98, 169) 100%);
 
 
 //Fonts
 $sans:sans-serif;
-$gentiumFont: 'Gentium Book Basic',
-serif;
 $openSansFont:'Open Sans',
+sans-serif;
+$mada: 'Mada',
+sans-serif;
+$rubik: 'Rubik',
 sans-serif;
 
 //weight
 $light:300;
 $regular:400;
 $bold:500;
+$bolder:700;

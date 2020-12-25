@@ -4,30 +4,26 @@ html {
 }
 
 body {
-    font-family: $sans;
+    font-family: $rubik;
     font-weight: $light;
     transition: all ease-in-out 250ms;
 }
 
-// global classes
-.muted-heading {
-    @include font-size(40px);
-    text-transform: capitalize;
-
-    @include mediaMax(769px) {
-        margin-bottom: 1em;
-    }
+section {
+    margin: 2em 0;
 }
 
+
 .bg {
-    background-image: -moz-linear-gradient(0deg, rgb(45, 3, 151) 0%, rgb(249, 98, 169) 100%);
-    background-image: -webkit-linear-gradient(0deg, rgb(45, 3, 151) 0%, rgb(249, 98, 169) 100%);
-    background-image: -ms-linear-gradient(0deg, rgb(45, 3, 151) 0%, rgb(249, 98, 169) 100%);
+    background-image: -moz-linear-gradient(90deg, rgb(45, 3, 151) 0%, rgb(249, 98, 169) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(45, 3, 151) 0%, rgb(249, 98, 169) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(45, 3, 151) 0%, rgb(249, 98, 169) 100%);
     box-shadow: 0px 8px 16px 0px rgba(55, 8, 152, 0.06);
-    position: absolute;
-    left: 520px;
-    top: 1204px;
     width: 350px;
     height: 432px;
     z-index: 153;
+}
+
+.z-100 {
+    z-index: 100;
 }

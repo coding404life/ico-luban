@@ -6,11 +6,12 @@ nav {
     z-index: 100;
     background-color: #fff;
     height: 93px;
-
+    font-size: .9em;
 
     .navbar-brand {
         font-size: 1.4em;
         line-height: 1;
+        font-family: $openSansFont;
         text-transform: uppercase;
         display: flex;
         align-items: center;
@@ -18,21 +19,20 @@ nav {
     }
 
     .active {
-        color: $greenColor !important;
-        // border: 1px solid $greenColor;
+        color: $navColor !important;
         border-radius: 7px;
     }
 
     .nav-link {
         font-weight: bold;
-        text-transform: capitalize;
+        text-transform: uppercase;
+        margin-left: .5em;
+        color: $navColor !important;
 
         &:hover {
-            color: $greenColor !important;
+            color: $dropDown !important;
         }
     }
-
-
 
     @include mediaMax(769px) {
         #navbarNav {
@@ -69,6 +69,6 @@ nav {
     width: 91vw;
     top: 3em;
     right: 5%;
-    left: 5%;
+    left: 4.5%;
     margin: 15px auto;
 }
